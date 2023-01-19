@@ -31,7 +31,7 @@ const maxValue = shill.length;
 				let randomPick = Math.floor(Math.random() * maxValue);
 
 				setTimeout(() => {
-					client.sendMessage("@therecharge_official", {
+					client.sendMessage("@futuresnoob", {
 						message: shill[randomPick],
 					});
 				}, randomAdditional);
