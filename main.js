@@ -24,7 +24,7 @@ const maxValue = shill.length;
 	// Cara baca crontab:
 	// https://crontab.guru/
 	const q0 = new cron.CronJob(
-		"48 2 * * 1-5",
+		"5-58 2 * * 1-5",
 		async () => {
 			try {
 				let randomAdditional = Math.floor(Math.random() * 5000) + 1000;
