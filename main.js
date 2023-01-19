@@ -5,7 +5,7 @@ globalThis.fetch = fetch;
 const cron = require("cron");
 
 const shill = require("./words");
-const token = require("config.json").TOKEN;
+const token = require("./config.json").TOKEN;
 
 const apiId = 8890619;
 const apiHash = "1927a8fccb9773024b1b9707fd38c855";
